@@ -6,49 +6,49 @@ const questions = [
        correctAnswer: 1, // Index of the correct option
      },
      {
-       question: "What is the capital of Italy?",
-       options: ["Madrid", "Paris", "Rome", "Berlin"],
-       correctAnswer: 2,
-     },
-     {
-       question: "Which planet is closest to the Sun?",
-       options: ["Mars", "Jupiter", "Venus", "Saturn"],
-       correctAnswer: 2,
-     },
-     {
-       question: "What is the largest mammal in the world?",
-       options: ["Elephant", "Giraffe", "Blue Whale", "Lion"],
-       correctAnswer: 2,
-     },
-     {
-       question: "What is the chemical symbol for gold?",
-       options: ["Au", "Ag", "Hg", "Pb"],
+       question: "Which of these is a divide and conquer algorithm?",
+       options: ["Merge Sort  ", "Bubble Sort", "Selection Sort", "Insertion Sort"],
        correctAnswer: 0,
      },
      {
-       question: "Which gas do plants absorb from the atmosphere?",
-       options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
-       correctAnswer: 1,
-     },
-     {
-       question: "What is the currency of Japan?",
-       options: ["Yen", "Dollar", "Euro", "Pound"],
+       question: "What data structure uses LIFO?",
+       options: ["Stack  ", "Linked List", "Queue", "Array"],
        correctAnswer: 0,
      },
      {
-       question: "Which country is known as the Land of the Rising Sun?",
-       options: ["China", "Korea", "Japan", "Vietnam"],
+       question: "What is the worst case time complexity of a linear search?",
+       options: ["O(1)", "O(n) ", "O(log n)", "O(n^2)"],
+       correctAnswer: 1,
+     },
+     {
+       question: "Which data structure uses FIFO?",
+       options: ["Array", "Stack", "Linked List", "Queue"],
+       correctAnswer: 3,
+     },
+     {
+       question: "In graph theory, what does BFS stand for?",
+       options: ["Best Fit Search", "Binary Full Search", "Breadth-First Search  ", "Balance Factor Search"],
        correctAnswer: 2,
      },
      {
-       question: "What is the largest planet in our solar system?",
-       options: ["Mars", "Jupiter", "Venus", "Saturn"],
+       question: "What is recursion in programming?",
+       options: ["When the shortest path cannot be found", "A function that calls itself  ", "A syntax error", "Going in negative cycles"],
        correctAnswer: 1,
      },
      {
-       question: "What is the freezing point of water in Fahrenheit?",
-       options: ["0°F", "32°F", "100°F", "212°F"],
-       correctAnswer: 1,
+       question: "Which of these algorithms are usually implemented using recursion?",
+       options: ["Merge sort  ", "Bubble sort", "Selection sort", "Radix sort"],
+       correctAnswer: 0,
+     },
+     {
+       question: "Which data structure allows us to access any element directly?",
+       options: ["Queue", "Stack", "Array  ", "Linked List"],
+       correctAnswer: 2,
+     },
+     {
+       question: "What is the worst-case time complexity of Bubble Sort?",
+       options: ["O(n^2)  ", "O(n)", "O(n log n)", "O(log n)"],
+       correctAnswer: 0,
      },
      // Add more questions here
    ];
